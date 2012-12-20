@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89DB1629167F111B0052C9A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DB1628167F111B0052C9A3 /* Foundation.framework */; };
+		89DB1652167F11840052C9A3 /* SuperCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DB1651167F11840052C9A3 /* SuperCalc.m */; };
+		89DB1661167F16DE0052C9A3 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DB1660167F16DE0052C9A3 /* CoreFoundation.framework */; };
+		89DB1663167F17060052C9A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DB1662167F17060052C9A3 /* UIKit.framework */; };
+		89DB169D167F267B0052C9A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DB167D167F262B0052C9A3 /* UIKit.framework */; };
+		89DB169E167F267B0052C9A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DB1628167F111B0052C9A3 /* Foundation.framework */; };
+		89DB169F167F267B0052C9A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DB1680167F262B0052C9A3 /* CoreGraphics.framework */; };
+		89DB16A5167F267B0052C9A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89DB16A3167F267B0052C9A3 /* InfoPlist.strings */; };
+		89DB16A7167F267B0052C9A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DB16A6167F267B0052C9A3 /* main.m */; };
+		89DB16AD167F267B0052C9A3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 89DB16AC167F267B0052C9A3 /* Default.png */; };
+		89DB16AF167F267B0052C9A3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89DB16AE167F267B0052C9A3 /* Default@2x.png */; };
+		89DB16B1167F267B0052C9A3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89DB16B0167F267B0052C9A3 /* Default-568h@2x.png */; };
+		89DB16C5167F46FF0052C9A3 /* CalcFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DB16C4167F46FF0052C9A3 /* CalcFrameTests.m */; };
+		C1A238154CF64029A1843828 /* libPods-CalcFrameTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 070177C44FAC4AE0A421FD8F /* libPods-CalcFrameTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89DB1623167F111B0052C9A3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		070177C44FAC4AE0A421FD8F /* libPods-CalcFrameTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalcFrameTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB5233B2391421197CB3B5D /* Pods-CalcFrameTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalcFrameTests.xcconfig"; path = "Pods/Pods-CalcFrameTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		89DB1625167F111B0052C9A3 /* libCalcFrame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCalcFrame.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DB1628167F111B0052C9A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89DB162C167F111B0052C9A3 /* CalcFrame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalcFrame-Prefix.pch"; sourceTree = "<group>"; };
+		89DB1650167F11840052C9A3 /* SuperCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperCalc.h; sourceTree = "<group>"; };
+		89DB1651167F11840052C9A3 /* SuperCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperCalc.m; sourceTree = "<group>"; };
+		89DB1660167F16DE0052C9A3 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		89DB1662167F17060052C9A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		89DB1664167F194D0052C9A3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		89DB167D167F262B0052C9A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		89DB1680167F262B0052C9A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		89DB169B167F267B0052C9A3 /* CalcFrameTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalcFrameTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DB16A2167F267B0052C9A3 /* CalcFrameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalcFrameTests-Info.plist"; sourceTree = "<group>"; };
+		89DB16A4167F267B0052C9A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89DB16A6167F267B0052C9A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89DB16A8167F267B0052C9A3 /* CalcFrameTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalcFrameTests-Prefix.pch"; sourceTree = "<group>"; };
+		89DB16AC167F267B0052C9A3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		89DB16AE167F267B0052C9A3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		89DB16B0167F267B0052C9A3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		89DB16C3167F46FF0052C9A3 /* CalcFrameTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcFrameTests.h; sourceTree = "<group>"; };
+		89DB16C4167F46FF0052C9A3 /* CalcFrameTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcFrameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89DB1622167F111B0052C9A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DB1663167F17060052C9A3 /* UIKit.framework in Frameworks */,
+				89DB1661167F16DE0052C9A3 /* CoreFoundation.framework in Frameworks */,
+				89DB1629167F111B0052C9A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DB1698167F267B0052C9A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DB169D167F267B0052C9A3 /* UIKit.framework in Frameworks */,
+				89DB169E167F267B0052C9A3 /* Foundation.framework in Frameworks */,
+				89DB169F167F267B0052C9A3 /* CoreGraphics.framework in Frameworks */,
+				C1A238154CF64029A1843828 /* libPods-CalcFrameTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89DB161A167F111B0052C9A3 = {
+			isa = PBXGroup;
+			children = (
+				89DB1664167F194D0052C9A3 /* QuartzCore.framework */,
+				89DB1662167F17060052C9A3 /* UIKit.framework */,
+				89DB1660167F16DE0052C9A3 /* CoreFoundation.framework */,
+				89DB162A167F111B0052C9A3 /* CalcFrame */,
+				89DB16A0167F267B0052C9A3 /* CalcFrameTests */,
+				89DB1627167F111B0052C9A3 /* Frameworks */,
+				89DB1626167F111B0052C9A3 /* Products */,
+				2EB5233B2391421197CB3B5D /* Pods-CalcFrameTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		89DB1626167F111B0052C9A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89DB1625167F111B0052C9A3 /* libCalcFrame.a */,
+				89DB169B167F267B0052C9A3 /* CalcFrameTests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89DB1627167F111B0052C9A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89DB1628167F111B0052C9A3 /* Foundation.framework */,
+				89DB167D167F262B0052C9A3 /* UIKit.framework */,
+				89DB1680167F262B0052C9A3 /* CoreGraphics.framework */,
+				070177C44FAC4AE0A421FD8F /* libPods-CalcFrameTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89DB162A167F111B0052C9A3 /* CalcFrame */ = {
+			isa = PBXGroup;
+			children = (
+				89DB162B167F111B0052C9A3 /* Supporting Files */,
+				89DB1650167F11840052C9A3 /* SuperCalc.h */,
+				89DB1651167F11840052C9A3 /* SuperCalc.m */,
+			);
+			path = CalcFrame;
+			sourceTree = "<group>";
+		};
+		89DB162B167F111B0052C9A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89DB162C167F111B0052C9A3 /* CalcFrame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89DB16A0167F267B0052C9A3 /* CalcFrameTests */ = {
+			isa = PBXGroup;
+			children = (
+				89DB16A1167F267B0052C9A3 /* Supporting Files */,
+				89DB16C3167F46FF0052C9A3 /* CalcFrameTests.h */,
+				89DB16C4167F46FF0052C9A3 /* CalcFrameTests.m */,
+			);
+			path = CalcFrameTests;
+			sourceTree = "<group>";
+		};
+		89DB16A1167F267B0052C9A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89DB16A2167F267B0052C9A3 /* CalcFrameTests-Info.plist */,
+				89DB16A3167F267B0052C9A3 /* InfoPlist.strings */,
+				89DB16A6167F267B0052C9A3 /* main.m */,
+				89DB16A8167F267B0052C9A3 /* CalcFrameTests-Prefix.pch */,
+				89DB16AC167F267B0052C9A3 /* Default.png */,
+				89DB16AE167F267B0052C9A3 /* Default@2x.png */,
+				89DB16B0167F267B0052C9A3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89DB1624167F111B0052C9A3 /* CalcFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DB164A167F111B0052C9A3 /* Build configuration list for PBXNativeTarget "CalcFrame" */;
+			buildPhases = (
+				89DB1621167F111B0052C9A3 /* Sources */,
+				89DB1622167F111B0052C9A3 /* Frameworks */,
+				89DB1623167F111B0052C9A3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalcFrame;
+			productName = CalcFrame;
+			productReference = 89DB1625167F111B0052C9A3 /* libCalcFrame.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		89DB169A167F267B0052C9A3 /* CalcFrameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DB16B2167F267B0052C9A3 /* Build configuration list for PBXNativeTarget "CalcFrameTests" */;
+			buildPhases = (
+				89DB1697167F267B0052C9A3 /* Sources */,
+				89DB1698167F267B0052C9A3 /* Frameworks */,
+				89DB1699167F267B0052C9A3 /* Resources */,
+				FBEB5D6FBB914E248AAA0CCE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalcFrameTests;
+			productName = CalcFrameTests;
+			productReference = 89DB169B167F267B0052C9A3 /* CalcFrameTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89DB161C167F111B0052C9A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Christian K Ibsen";
+			};
+			buildConfigurationList = 89DB161F167F111B0052C9A3 /* Build configuration list for PBXProject "CalcFrame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89DB161A167F111B0052C9A3;
+			productRefGroup = 89DB1626167F111B0052C9A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89DB1624167F111B0052C9A3 /* CalcFrame */,
+				89DB169A167F267B0052C9A3 /* CalcFrameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89DB1699167F267B0052C9A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DB16A5167F267B0052C9A3 /* InfoPlist.strings in Resources */,
+				89DB16AD167F267B0052C9A3 /* Default.png in Resources */,
+				89DB16AF167F267B0052C9A3 /* Default@2x.png in Resources */,
+				89DB16B1167F267B0052C9A3 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FBEB5D6FBB914E248AAA0CCE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-CalcFrameTests-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89DB1621167F111B0052C9A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DB1652167F11840052C9A3 /* SuperCalc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DB1697167F267B0052C9A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DB16A7167F267B0052C9A3 /* main.m in Sources */,
+				89DB16C5167F46FF0052C9A3 /* CalcFrameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89DB16A3167F267B0052C9A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89DB16A4167F267B0052C9A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89DB1648167F111B0052C9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		89DB1649167F111B0052C9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89DB164B167F111B0052C9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CalcFrame.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalcFrame/CalcFrame-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		89DB164C167F111B0052C9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CalcFrame.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalcFrame/CalcFrame-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		89DB16B3167F267B0052C9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB5233B2391421197CB3B5D /* Pods-CalcFrameTests.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalcFrameTests/CalcFrameTests-Prefix.pch";
+				INFOPLIST_FILE = "CalcFrameTests/CalcFrameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		89DB16B4167F267B0052C9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB5233B2391421197CB3B5D /* Pods-CalcFrameTests.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalcFrameTests/CalcFrameTests-Prefix.pch";
+				INFOPLIST_FILE = "CalcFrameTests/CalcFrameTests-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89DB161F167F111B0052C9A3 /* Build configuration list for PBXProject "CalcFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DB1648167F111B0052C9A3 /* Debug */,
+				89DB1649167F111B0052C9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DB164A167F111B0052C9A3 /* Build configuration list for PBXNativeTarget "CalcFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DB164B167F111B0052C9A3 /* Debug */,
+				89DB164C167F111B0052C9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DB16B2167F267B0052C9A3 /* Build configuration list for PBXNativeTarget "CalcFrameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DB16B3167F267B0052C9A3 /* Debug */,
+				89DB16B4167F267B0052C9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89DB161C167F111B0052C9A3 /* Project object */;
+}
