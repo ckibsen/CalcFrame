@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		896CC763169B09E40009AC32 /* libCalcFrame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DB1625167F111B0052C9A3 /* libCalcFrame.a */; };
 		89DB1629167F111B0052C9A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DB1628167F111B0052C9A3 /* Foundation.framework */; };
 		89DB1652167F11840052C9A3 /* SuperCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DB1651167F11840052C9A3 /* SuperCalc.m */; };
 		89DB1661167F16DE0052C9A3 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DB1660167F16DE0052C9A3 /* CoreFoundation.framework */; };
@@ -75,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896CC763169B09E40009AC32 /* libCalcFrame.a in Frameworks */,
 				89DB169D167F267B0052C9A3 /* UIKit.framework in Frameworks */,
 				89DB169E167F267B0052C9A3 /* Foundation.framework in Frameworks */,
 				89DB169F167F267B0052C9A3 /* CoreGraphics.framework in Frameworks */,

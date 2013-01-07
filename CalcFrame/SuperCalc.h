@@ -11,5 +11,6 @@
 @interface SuperCalc : NSObject
 +(NSInteger)add:(NSInteger)firstOp to:(NSInteger)secondOp;
 +(NSInteger)subtract:(NSInteger)firstOp from:(NSInteger)secondOp;
++(NSString *)version;
 
 @end

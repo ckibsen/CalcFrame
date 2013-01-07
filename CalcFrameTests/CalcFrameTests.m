@@ -7,6 +7,7 @@
 //
 
 #import "CalcFrameTests.h"
+#import "SuperCalc.h"
 
 @implementation CalcFrameTests
 
@@ -29,6 +30,11 @@
     NSString *a = @"foo";
     NSString *b = @"foo";
     GHAssertEqualObjects(a, b, @"A custom error message. a should be equal to: %@.", b);
+    
+    
+    NSString *versionString = [SuperCalc version];
+    GHAssertEqualStrings(@"0.0.2", versionString, @"Unexpected version");
+    
 }
 
 @end
